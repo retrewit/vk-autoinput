@@ -3,7 +3,7 @@
 Install:
 ```
 apt update && apt upgrade -y
-apt install python python3 python3-pip git
+apt install python python3 python3-pip git -y
 git clone https://github.com/retrewit/vk-autoinput.git
 cd vk-autoinput
 pip3 install -r requirements.txt
@@ -17,7 +17,7 @@ python3 main.py [-t VK_TOKEN] user
 Install:
 ```
 pkg update -y
-pkg install python3 git
+pkg install python3 git -y
 git clone https://github.com/retrewit/vk-autoinput.git
 cd vk-autoinput
 pip3 install -r requirements.txt
