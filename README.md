@@ -17,7 +17,7 @@ python3 main.py [-t VK_TOKEN] user
 Install:
 ```
 pkg update -y
-pkg install python3-pip git
+pkg install python3 git
 git clone https://github.com/retrewit/vk-autoinput.git
 cd vk-autoinput
 pip3 install -r requirements.txt
